@@ -118,3 +118,19 @@ The Spring PetClinic sample application is released under version 2.0 of the [Ap
 [spring-petclinic-graphql]: https://github.com/spring-petclinic/spring-petclinic-graphql
 [spring-petclinic-kotlin]: https://github.com/spring-petclinic/spring-petclinic-kotlin
 [spring-petclinic-rest]: https://github.com/spring-petclinic/spring-petclinic-rest
+
+Prereqs: Minikube and helm
+
+#minikube start
+#eval $(minikube docker-env)
+#create Dockerfile
+#mkdir helm-charts; cd helm-charts
+#helm create spring-petclinic
+#from root: folder docker build -t petclinic:test .
+#helm install --name petclinic spring-petclinic/
+#minikube service list
+
+
+
+
+
